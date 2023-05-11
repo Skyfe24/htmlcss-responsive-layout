@@ -45,7 +45,7 @@ a {
   gap:20px;
 }
 .squaring {
-  
+  flex-wrap: wrap; 
   margin: 0 auto;
 }
 .square-big {
