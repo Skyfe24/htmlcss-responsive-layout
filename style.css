@@ -14,7 +14,12 @@ h2{
 .space20 {
   margin-top: 20px;
 }
-
+.space30 {
+  margin-top: 30px;
+}
+.white{
+  color: #ffffff;
+}
 header {
   background-color: #2477f3;
   color: #ffffff;
@@ -50,13 +55,19 @@ a {
   color: #ffffff;
   text-decoration: none;
 }
-
-
-.justify-center-align-center {
+.justify-around-align-center {
   justify-content: space-around;
   align-items: center;
 }
 
+.justify-evenly-align-center {
+  justify-content: space-evenly;
+  align-items: center;
+}
+.justify-center-align-center {
+  justify-content: center;
+  align-items: center;
+}
 .flex {
   display: flex;
 
@@ -91,14 +102,16 @@ a {
   justify-content: center;
   position: relative;
 }
-.half{
-  
+
+
+.colorviolet{
+  color: rgb(149, 147, 230);
 }
 .violet{
   background-color: rgb(149, 147, 230);
   margin-top: 50px;
   min-height: 600px;
-
+  text-align: center;
 }
 img{
   max-width: 200px;
@@ -112,10 +125,11 @@ img{
 }
 .second{
   background-color: #ffffff;
-  padding: 37px;
+  padding: 23px;
   border-radius: 7%;
   position: relative;
-  top: 174px;
+  top: 125px;
+  text-align: center;
 
 }
 .title{
@@ -128,10 +142,33 @@ img{
 }
 .card{
   background-color: rgb(149, 147, 230);
-  padding: 20px;
   color: #ffffff;
-  border-radius: 16%;
+  border-radius: 5%;
 }
 .portrait{
+  flex-basis: 16%;
   border-radius: 50%;
+  width: 90px;
+  height: 90px;
+}
+.txtcard{
+  flex-basis: 58%;
+}
+
+
+.fa-arrow-down{
+  color: black;
+  background-color: rgb(149, 147, 230);
+  padding: 5px;
+  border-radius: 50%;
+  font-size: 25px;
+}
+.bigger{
+  font-size: 55px;
+}
+.box{
+  flex-basis: 25%;
+  min-height: 330px;
+  background-color: white;
+  border-radius: 20px;
 }
