@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "PT Sans";
+  }
+
+  header{
+    background-color: #2477f3;
+    color: #ffffff;
+    height: 60px;
+  }
+  .flex {
+    display: flex;
+}
+    
+  .row{
+    justify-content: space-between;
+    align-items: center;
+  }
+ .big-container{
+    width: 100%;
+ }
