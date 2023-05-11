@@ -13,6 +13,9 @@
   .flex {
     display: flex;
 }
+.squaring{
+  gap: 10px;
+}
     
   .row{
     justify-content: space-between;
@@ -20,4 +23,16 @@
   }
  .big-container{
     width: 100%;
+ }
+ .square-big{
+  flex-basis: 66%;
+  border-radius: 20px;
+  max-height: 500px;
+  background-color: #7ec4fd;
+ }
+ .square-cleancode{
+  flex-basis: 33%;
+  border-radius: 20px;
+  max-height: 500px;
+  background-color: #7ec4fd;
  }
