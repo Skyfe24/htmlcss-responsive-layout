@@ -96,6 +96,15 @@ img{
   top: 174px;
 
 }
-
-
+.title{
+  text-align: center;
+}
+.columns{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  
+}
 
