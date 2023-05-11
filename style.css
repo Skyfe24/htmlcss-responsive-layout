@@ -202,3 +202,11 @@ h3{
 .mrg{
   margin-right: 15px;
 }
+.ABOUT{
+flex-basis: 70%;
+
+}
+
+.testimonial{
+  flex-basis: 30%;
+}
