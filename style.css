@@ -4,11 +4,12 @@
   box-sizing: border-box;
   font-family: "PT Sans";
 }
-.fa-solid , .fa-file{
+.fa-solid,
+.fa-file {
   color: #2477f3;
   font-size: 60px;
 }
-h2{
+h2 {
   color: #2477f3;
 }
 .space20 {
@@ -17,7 +18,7 @@ h2{
 .space30 {
   margin-top: 30px;
 }
-.white{
+.white {
   color: #ffffff;
 }
 header {
@@ -26,15 +27,14 @@ header {
   max-height: 80px;
   padding: 15px;
 }
-.logo{
-  
+.logo {
 }
-ul{
+ul {
   list-style-type: none;
   display: flex;
   gap: 10px;
 }
-.btn-blue{
+.btn-blue {
   padding: 10px;
   padding-left: 20px;
   padding-right: 20px;
@@ -43,8 +43,8 @@ ul{
   border-radius: 15px;
   border: none;
   cursor: pointer;
-  }
-.btn-violet{
+}
+.btn-violet {
   padding: 10px;
   color: #ffffff;
   background-color: rgb(149, 147, 230);
@@ -57,12 +57,12 @@ ul{
   padding-left: 24px;
 }
 
-.btn-white{
-padding: 10px;
-color: #2477f3;
-background-color: #ffffff;
-border-radius: 15px;
-cursor: pointer;
+.btn-white {
+  padding: 10px;
+  color: #2477f3;
+  background-color: #ffffff;
+  border-radius: 15px;
+  cursor: pointer;
 }
 a {
   color: #ffffff;
@@ -80,20 +80,18 @@ a {
 .justify-center-align-center {
   justify-content: center;
   align-items: center;
-  
 }
-.margintop{
-  margin-top:50px
+.margintop {
+  margin-top: 50px;
 }
 .flex {
   display: flex;
-
 }
-.gap{
-  gap:20px;
+.gap {
+  gap: 20px;
 }
 .squaring {
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   margin: 0 auto;
   margin-top: 50px;
 }
@@ -114,116 +112,111 @@ a {
   text-align: center;
   padding: 20px;
 }
-.strategic{
+.strategic {
   align-items: center;
   justify-content: center;
   position: relative;
 }
 
-
-.colorviolet{
+.colorviolet {
   color: rgb(149, 147, 230);
 }
-.violet{
+.violet {
   background-color: rgb(149, 147, 230);
   margin-top: 50px;
   min-height: 600px;
   text-align: center;
   padding-bottom: 20px;
 }
-img{
+img {
   max-width: 200px;
 }
-.first{
+.first {
   padding: 37px;
-  
 }
-.txt1{
+.txt1 {
   margin-top: 50px;
 }
-.second{
+.second {
   background-color: #ffffff;
   padding: 23px;
   border-radius: 7%;
   position: relative;
   top: 125px;
   text-align: center;
-
 }
-.title{
+.title {
   text-align: center;
 }
-.columns{
+.columns {
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.card{
+.card {
   background-color: rgb(149, 147, 230);
   color: #ffffff;
   border-radius: 5%;
 }
-.portrait{
+.portrait {
   flex-basis: 16%;
   border-radius: 50%;
   width: 90px;
   height: 90px;
 }
-.txtcard{
+.txtcard {
   flex-basis: 58%;
 }
 
-
-.fa-arrow-down{
+.fa-arrow-down {
   color: black;
   background-color: rgb(149, 147, 230);
   padding: 5px;
   border-radius: 50%;
   font-size: 25px;
 }
-.bigger{
+.bigger {
   font-size: 55px;
 }
-.biggie{
+.biggie {
   font-size: 20px;
 }
-.biggest{
+.biggest {
   font-size: 85px;
 }
-.box{
+.box {
   flex-basis: 25%;
   min-height: 330px;
   background-color: white;
   border-radius: 20px;
 }
-h3{
+h3 {
   padding-top: 36px;
 }
-.testo{
+.testo {
   margin-left: 20px;
   margin-top: 40px;
   text-align: left;
-
 }
-h1{
+h1 {
   font-size: 55px;
   color: rgb(149, 147, 230);
 }
-.mrg{
+.mrg {
   margin-right: 15px;
 }
-.ABOUT{
-
+.ABOUT {
 }
-.testim{
+.testim {
   border-radius: 50%;
 }
-.testimonial{
+.testimonial {
   display: flex;
   flex-direction: column;
   position: relative;
 }
-.testimonial-btn-violet{
+
+.testimonial-btn-violet {
   padding: 10px;
   color: #ffffff;
   background-color: rgb(149, 147, 230);
@@ -236,16 +229,36 @@ h1{
   max-width: 133px;
   font-size: 10px;
 }
-.fa-quote-left{
+.fa-quote-left {
   color: rgb(149, 147, 230);
   position: relative;
   bottom: 196px;
   left: 151px;
 }
-.gold{
+.gold {
   color: gold;
 }
-.opac{
+.opac {
   padding-top: 40px;
   opacity: 0.5;
+}
+.opac2 {
+  padding-top: 40px;
+  opacity: 0.7;
+}
+.big-btn {
+  color: rgb(149, 147, 230);
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+  border-radius: 37px;
+  padding-right: 50px;
+  margin-top: 35px;
+  padding-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+footer{
+  background-color: #32333b;
+  height: 400px;
 }
