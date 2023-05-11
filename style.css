@@ -198,15 +198,18 @@ h3{
   text-align: left;
 
 }
-
+h1{
+  font-size: 55px;
+  color: rgb(149, 147, 230);
+}
 .mrg{
   margin-right: 15px;
 }
 .ABOUT{
-flex-basis: 70%;
 
 }
-
+.testim{
+  border-radius: 50%;
+}
 .testimonial{
-  flex-basis: 30%;
 }
