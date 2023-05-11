@@ -187,6 +187,9 @@ img{
 .biggie{
   font-size: 20px;
 }
+.biggest{
+  font-size: 85px;
+}
 .box{
   flex-basis: 25%;
   min-height: 330px;
@@ -238,4 +241,11 @@ h1{
   position: relative;
   bottom: 196px;
   left: 151px;
+}
+.gold{
+  color: gold;
+}
+.opac{
+  padding-top: 40px;
+  opacity: 0.5;
 }
