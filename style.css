@@ -18,6 +18,9 @@ h2 {
 .space30 {
   margin-top: 30px;
 }
+.space80 {
+  margin-top: 80px;
+}
 .white {
   color: #ffffff;
 }
@@ -27,8 +30,7 @@ header {
   max-height: 80px;
   padding: 15px;
 }
-.logo {
-}
+
 ul {
   list-style-type: none;
   display: flex;
@@ -260,5 +262,12 @@ h1 {
 }
 footer{
   background-color: #32333b;
-  height: 400px;
+  height: 300px;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 30px;
+}
+.viol{
+  color: rgb(149, 147, 230);
+  cursor: pointer;
 }
