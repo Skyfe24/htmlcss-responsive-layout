@@ -9,7 +9,7 @@ header {
   background-color: #2477f3;
   color: #ffffff;
   max-height: 80px;
-  padding-top: 10px;
+  padding: 15px;
 }
 .logo{
   
@@ -30,32 +30,35 @@ a {
   color: #ffffff;
   text-decoration: none;
 }
-.flex {
-  display: flex;
 
-}
 
 .justify-center-align-center {
   justify-content: space-around;
   align-items: center;
 }
+
+.flex {
+  display: flex;
+
+}
 .gap{
   gap:10;
 }
 .squaring {
-  margin-top: 40px;
+  
+  margin: 0 auto;
 }
 .square-big {
-  flex-basis: calc(100% /3 -20px);
+  flex-basis: 66%;
   border-radius: 20px;
   min-height: 300px;
   background-color: #7ec4fd;
   text-align: left;
 }
 .square-normal {
-  flex-basis: calc(100% /3 -20px);
+  flex-basis: 33%;
   border-radius: 20px;
-  min-height: 300px;
+  min-height: 200px;
   background-color: #7ec4fd;
   width: 100%;
   text-align: center;
