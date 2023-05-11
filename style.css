@@ -216,4 +216,26 @@ h1{
   border-radius: 50%;
 }
 .testimonial{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.testimonial-btn-violet{
+  padding: 10px;
+  color: #ffffff;
+  background-color: rgb(149, 147, 230);
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 30px;
+  margin-left: -2px;
+  padding-left: 19px;
+  max-width: 133px;
+  font-size: 10px;
+}
+.fa-quote-left{
+  color: rgb(149, 147, 230);
+  position: relative;
+  bottom: 196px;
+  left: 151px;
 }
