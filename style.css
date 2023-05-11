@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: "PT Sans";
 }
+.space20 {
+  margin-top: 20px;
+}
 
 header {
   background-color: #2477f3;
@@ -105,6 +108,11 @@ img{
   align-items: center;
 }
 .card{
-  
+  background-color: rgb(149, 147, 230);
+  padding: 20px;
+  color: #ffffff;
+  border-radius: 16%;
 }
-
+.portrait{
+  border-radius: 50%;
+}
