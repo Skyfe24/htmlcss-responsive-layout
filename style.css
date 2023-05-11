@@ -4,6 +4,13 @@
   box-sizing: border-box;
   font-family: "PT Sans";
 }
+.fa-solid , .fa-file{
+  color: #2477f3;
+  font-size: 60px;
+}
+h2{
+  color: #2477f3;
+}
 .space20 {
   margin-top: 20px;
 }
@@ -24,16 +31,20 @@ ul{
 }
 .btn-blue{
   padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
   color: #ffffff;
   background-color: #2477f3;
   border-radius: 15px;
   border: none;
+  cursor: pointer;
   }
 .btn-white{
 padding: 10px;
 color: #2477f3;
 background-color: #ffffff;
 border-radius: 15px;
+cursor: pointer;
 }
 a {
   color: #ffffff;
@@ -63,6 +74,8 @@ a {
   border-radius: 20px;
   background-color: #7ec4fd;
   text-align: left;
+  padding-top: 16px;
+  padding-left: 16px;
 }
 .square-normal {
   flex-basis: 29%;
