@@ -47,16 +47,16 @@ a {
 .squaring {
   flex-wrap: wrap; 
   margin: 0 auto;
+  margin-top: 50px;
 }
 .square-big {
-  flex-basis: 66%;
+  flex-basis: 60%;
   border-radius: 20px;
-  min-height: 300px;
   background-color: #7ec4fd;
   text-align: left;
 }
 .square-normal {
-  flex-basis: 33%;
+  flex-basis: 29%;
   border-radius: 20px;
   min-height: 200px;
   background-color: #7ec4fd;
@@ -72,9 +72,11 @@ a {
   flex-basis: calc(100% / 2 - 20px);
   min-height: 50px;
 }
-section{
+.violet{
   background-color: rgb(170, 150, 243);
-  min-height: 800px;
+  margin-top: 50px;
+  min-height: 600px;
+
 }
 img{
   max-width: 200px;
