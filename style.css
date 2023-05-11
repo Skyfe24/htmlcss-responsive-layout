@@ -44,6 +44,19 @@ ul{
   border: none;
   cursor: pointer;
   }
+.btn-violet{
+  padding: 10px;
+  color: #ffffff;
+  background-color: rgb(149, 147, 230);
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 30px;
+  max-width: 87px;
+  margin-left: 20px;
+  padding-left: 24px;
+}
+
 .btn-white{
 padding: 10px;
 color: #2477f3;
@@ -166,6 +179,9 @@ img{
 .bigger{
   font-size: 55px;
 }
+.biggie{
+  font-size: 20px;
+}
 .box{
   flex-basis: 25%;
   min-height: 330px;
@@ -180,4 +196,8 @@ h3{
   margin-top: 40px;
   text-align: left;
 
+}
+
+.mrg{
+  margin-right: 15px;
 }
